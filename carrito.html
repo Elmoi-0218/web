@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Carrito</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body class="protected">
+
+<aside class="sidebar" id="sidebar">
+    <h3>Menú</h3>
+    <a href="index.html">Productos</a>
+    <a href="carrito.html">Carrito</a>
+    <a href="checkout.html">Pago</a>
+    <a href="#" id="logout">Salir</a>
+</aside>
+
+<button class="sidebar-toggle" id="toggleSidebar">☰</button>
+
+<main class="hero">
+    <div class="hero-content">
+        <h1>Carrito</h1>
+        <div id="cartItems"></div>
+        <p>Total: $<span id="cartTotal">0</span></p>
+    </div>
+</main>
+
+<script src="js/cart.js"></script>
+<script src="js/auth.js"></script>
+</body>
+</html>
